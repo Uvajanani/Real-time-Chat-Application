@@ -65,12 +65,12 @@ A modern real-time chat app where users can connect, chat, share media, and cust
 - Start backend
   ```bash
    cd Backend
-   npm run dev
+   npm run server
 
 - Start frontend
    ```bash
       cd Frontend
-      npm run server
+      npm run dev
 
 
 
