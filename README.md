@@ -37,61 +37,24 @@ A modern real-time chat app where users can connect, chat, share media, and cust
 
 ## 🔧 Setup Instructions
 
-### 1. Clone the Repository
-
-```bash
+1. **Clone the Repository**
+   ```bash
     git clone https://github.com/Uvajanani/Real-time-Chat-Application.git
-    cd chatsphere
+    cd Real-time-Chat-Application
 
-Install Dependencies
-bash
-Copy
-Edit
-npm install
+2. **Install Dependencies**
+
+        npm install
+   
 3. Configure Firebase
-Create a firebase.js file inside /src and add your Firebase config:
-
-javascript
-Copy
-Edit
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
-import { getStorage } from "firebase/storage";
-
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
-
-const app = initializeApp(firebaseConfig);
-
-export const auth = getAuth(app);
-export const db = getFirestore(app);
-export const storage = getStorage(app);
+ Create a firebase.js file inside /src and add your Firebase config
+ 
 4. Start the Development Server
-bash
-Copy
-Edit
-npm start
-📸 Screenshots
-Add screenshots of:
 
-Chat screen
+        npm start
 
-Media sharing
 
-Profile editor
+## 🧑‍💻 Author
 
-Search functionality
-
-🧑‍💻 Author
-Your Name
-
-GitHub
-
-LinkedIn
+- Uvajanani
+- MERN Stack Developer
