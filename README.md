@@ -42,16 +42,36 @@ A modern real-time chat app where users can connect, chat, share media, and cust
     git clone https://github.com/Uvajanani/Real-time-Chat-Application.git
     cd Real-time-Chat-Application
 
-2. **Install Dependencies**
-
-        npm install
    
-3. Configure Firebase
- Create a firebase.js file inside /src and add your Firebase config
- 
-4. Start the Development Server
 
-        npm start
+2. **Install frontend & backend dependencies**
+
+- Backend
+  ```bash
+    cd server
+    npm install
+
+- Frontend
+  ```bash
+   cd ../client
+   npm install
+
+3. **Configure Firebase**
+ Create a firebase.js file inside /src and add your Firebase config
+
+
+4. **Run the app**
+
+- Start backend
+  ```bash
+   cd Backend
+   npm run dev
+
+- Start frontend
+   ```bash
+      cd Frontend
+      npm run server
+
 
 
 ## 🧑‍💻 Author
